@@ -13,5 +13,6 @@
 3. 鼠标滚动到一定高度时，右侧导航条渐显、顶部导航条改变样式；
 4. 屏幕当前页对应的顶部导航项和右侧导航项改变样式；
 5. 顶部导实现航滑动门效果；
+
 ## demo效果
-点击<a href="https://github.com/ccccccl/H5-CSS3-JS/.html">这里</a>查看demo展示效果
+点击<a href="http://htmlpreview.github.io/?https://github.com/ccccccl/H5-CSS3-JS.html">这里</a>查看demo展示效果
