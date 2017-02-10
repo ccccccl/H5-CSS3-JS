@@ -85,7 +85,7 @@ var text=head.getElementsByTagName('a');//获取header中所有的a元素
 
 window.onscroll=function(){
 	var top=document.body.scrollTop;
-	if(top>500){
+	if(top>500&&top<640*2-200){
 		scAnimation('.sc2');//为第二屏中的元素加上动画类
 		active(1);
 		setLine(1);
@@ -104,7 +104,7 @@ window.onscroll=function(){
 		active(3);
 		setLine(3);
 	}
-	if(top>640*4-200){
+	if(top>640*4-200&&top<640*5-200){
 		scAnimation('.sc5');
 		recovery('.sc4');
 		active(4);
@@ -130,7 +130,7 @@ var sideItems=document.getElementsByClassName('side-item');
 var jump=function(i,lib){
 	var item=lib[i];
 	item.onclick=function(){
-		document.body.scrollTop=640*i;
+		document.body.scrollTop=640*i-60;
 		addCls(item,'active');
 	}
 }
@@ -139,7 +139,6 @@ for(var i=0;i<navItems.length;i++){
 	jump(i,navItems);
 	jump(i,sideItems);
 }
-
 
 // 第三步：定义导航项active样式变化的函数
 var active=function(dex){
@@ -184,7 +183,7 @@ for(var i=0;i<navItems.length;i++){
 	setLine(i);
 }
 //第五步：给按钮绑定点击效果
-var now=document.getElementById('now')s;
+var now=document.getElementById('now');
 now.onclick=function(){
 	prompt('请输入您的账号');
 };
