@@ -14,4 +14,4 @@
 5. 顶部导实现航滑动门效果；
 
 ## demo效果
-点击<a href="http://htmlpreview.github.io/?https://github.com/ccccccl/H5-CSS3-JS.html">这里</a>查看demo展示效果
+点击<a href="http://htmlpreview.github.io/?https://github.com/ccccccl/H5-CSS3-JS/blob/master/index.html">这里</a>查看demo展示效果
